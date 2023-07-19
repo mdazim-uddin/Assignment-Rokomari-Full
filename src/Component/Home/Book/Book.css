@@ -1,0 +1,50 @@
+.a{
+    background-color:#fff;
+    width: 320px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* padding: 10% 0%;
+    margin: 3% 0%; */
+}
+.b{
+    /* padding: 5px 10px; */
+    
+}
+
+.book-area{
+    display: flex;
+    margin: 3% 0%;
+    justify-content: space-between;
+}
+.box-1{
+    background-color: #0984e3;
+    padding: 5px 10px;
+    height: 50vh;
+}
+.title{
+    color: #fff;
+    text-align: center;
+}
+
+.boxc1{
+    display: flex;
+}
+.img{
+    width: 40px;
+}
+.w{
+    width: 210px;
+}
+.h{
+    font-size: 12px;
+}
+.p{
+    font-size: 10px;
+}
+.y{
+    width: 20px;
+}

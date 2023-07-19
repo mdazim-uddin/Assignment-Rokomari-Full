@@ -1,0 +1,46 @@
+.cart-area{
+    width:260px ;
+    height: 70vh;
+    margin: 20px 0px;
+    text-align: center;
+    position: relative;
+    /* background-color: brown; */
+}
+.cart-img {
+  
+}
+.cart-area:hover .add-btn{
+        display: block;
+}
+.cart-area:hover .view-btn{
+    display: block;
+}
+.cart-img img{
+    width: 150px;
+    height: 45vh;
+    padding: 15px 0px;
+   
+}
+.add-btn{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: none;
+    
+}
+.add-btn button{
+    background: transparent;
+    padding: 6px 10px;
+    color: #fff;
+    background-color: orangered;
+    transition: 5;
+}
+.view-btn{
+   display: none;
+   transition: .5s;
+}
+.view-btn button{
+    background: transparent;
+  padding: 5px 85px;
+  background-color: skyblue;
+}
